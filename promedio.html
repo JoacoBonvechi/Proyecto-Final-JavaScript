@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Promedios</h1>
+            <p>(Tercer taller practico de JavaScript)</p>
+        </div>
+    </header>
+    <main>
+            <section class="section-promedios">
+                <h2>Calcula la <span>MEDIA</span> entre numeros</h2>
+                <p>(Metodo media aritmetica)</p>
+                <form action="">
+                    <label for="">Ingresa tus numeros uno por uno y pulsa enviar para agregarlos a la lista.</label>
+                    <div>
+                        <input type="number" id="numeros_lista" placeholder="ej;5">
+                        <button type="button" onclick="enviar_lista()">Enviar a la lista</button>
+                        <button type="button" onclick="eliminar_lista()">Eliminar lista</button></div>
+                    <p id="lista-numeros">Lista:</p>
+                    <div class="promedios-container">
+                        <p id="texto-promedios">Media:</p>
+                        <button type="button" onclick="calcular_promedio()" class="button-promedios">Calcular</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="section-mediana">
+                <h2>Calcula la <span>MEDIANA</span> entre numeros</h2>
+                <form action="">
+                    <label for="">Ingresa tus numeros uno por uno y pulsa enviar para agregarlos a la lista.</label>
+                    <div>
+                        <input type="number" id="numeros_lista_mediana" placeholder="ej;5">
+                        <button type="button" onclick="enviar_lista_mediana()">Enviar a la lista</button>
+                        <button type="button" onclick="eliminar_lista_mediana()">Eliminar lista</button></div>
+                    <p id="lista-mediana">Lista:</p>
+                    <div class="resultados-mediana-container">
+                        <p id="texto-mediana">Mediana:</p>
+                        <button type="button" onclick="calcularMediana()" class="button-mediana">Calcular</button>
+                    </div>
+                </form>
+            </section>
+            <section class="section-moda">
+                <h2>Calcula la <span>MODA</span> entre numeros</h2>
+                <form action="">
+                    <label for="">Ingresa tus numeros uno por uno y pulsa enviar para agregarlos a la lista.</label>
+                    <div>
+                        <input type="number" id="numeros_lista_moda" placeholder="ej;5">
+                        <button type="button" onclick="enviar_lista_moda()">Enviar a la lista</button>
+                        <button type="button" onclick="eliminar_lista_moda()">Eliminar lista</button></div>
+                    <p id="lista-moda">Lista:</p>
+                    <div class="resultados-moda-container">
+                        <p id="texto-moda">Moda:</p>
+                        <button type="button" onclick="calcularModa()" class="button-moda">Calcular</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="section-media-armonica">
+                <h2>Calcula la <span>MEDIA ARMONICA</span> entre numeros</h2>
+                <form action="">
+                    <label for="">Ingresa tus numeros uno por uno y pulsa enviar para agregarlos a la lista.</label>
+                    <div>
+                        <input type="number" id="numeros_lista_media-armonica" placeholder="ej;5">
+                        <button type="button" onclick="enviar_lista_media_armonica()">Enviar a la lista</button>
+                        <button type="button" onclick="eliminar_lista_media_armonica()">Eliminar lista</button></div>
+                    <p id="lista-media-armonica">Lista:</p>
+                    <div class="resultados-media-armonica-container">
+                        <p id="texto-media-armonica">Media Armonica:</p>
+                        <button type="button" onclick="calcularMediaArmonica()" class="button-media-armonica">Calcular</button>
+                    </div>
+                </form>
+            </section>
+    </main>
+    <footer>
+        <div class="logo-footer-container"><img src="./assets/logo luna sombra y recorte.png" alt=""></div>
+        <div class="redes-footer-container">
+            <ul>
+                <li><a href="https://github.com/Joacoxox"><span><img class="redes-logo" src="./assets/icons8-github-30 (1).png" alt=""></span>GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/joaqu%C3%ADn-bonvechi-997046226/"><span><img class="redes-logo" src="./assets/icons8-linkedin-rodeado-de-círculo-30 (1).png" alt=""></span>Linkedin</a></li>
+                <li><a href="https://www.instagram.com/joaco_bonvechi/"><span><img class="redes-logo" src="./assets/icons8-instagram-30 (1).png" alt=""></span>Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./promedio.js"></script>
+</body>
+</html>

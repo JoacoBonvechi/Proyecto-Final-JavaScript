@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #272643;
+}
+header div{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+header h1 {
+    font-size: 5rem;
+    margin: 10px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    
+}
+header p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: white;
+}
+main{
+    padding-top: 40px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+
+/* PRIMERA SECCION*/
+
+
+.first-section{
+    width: 70%;
+    height: auto;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #bae8e8;
+    border-radius: 7px;
+    box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.6);
+}
+.first-section div h2 {
+    font-size: 2rem;
+}
+.first-section form  article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 0;
+}
+.first-section form  article label{
+    font-size: 1.8rem;
+    width: 300px;
+    padding: 25px 0;
+}
+.first-section form  article div {
+    width: 200px;
+    text-align: center;
+}
+
+.first-section section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+.first-section section .input-container {
+    width: 110px;
+    height:30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.first-section section input {
+    width: 110px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.first-section section button{
+    width: 110px;
+    margin:10px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #9C8B6D;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* SEGUNDA SECCION*/
+
+.second-section{
+    width: 70%;
+    height: auto;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    background-color: #302643;
+    border-radius: 7px;
+    box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.6);
+}
+.second-section h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+.second-section form  article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 0;
+}
+.second-section form  article label{
+    font-size: 1.8rem;
+    width: 300px;
+    padding: 25px 0;
+    color:white;
+}
+.second-section form  article div {
+    width: 200px;
+    text-align: center;
+}
+
+.second-section section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+ .second-section section .input-container {
+    width: 110px;
+    height:30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.second-section section input {
+    width: 110px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.second-section section button{
+    width: 110px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #688F43;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+/* SECCION CIRCULO */
+
+.third-section{
+    width: 70%;
+    height: auto;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    background-color: #346969;
+    border-radius: 7px;
+    box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.6);
+}
+.third-section h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+.third-section form  article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 0;
+}
+.third-section form  article label{
+    font-size: 1.8rem;
+    width: 300px;
+    padding: 25px 0;
+    color:white;
+}
+.third-section form  article div {
+    width: 200px;
+    text-align: center;
+}
+
+.third-section section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+ .third-section section .input-container {
+    width: 110px;
+    height:30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.third-section section input {
+    width: 110px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.third-section section button{
+    width: 110px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #B57148;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #1b1f2f;
+}

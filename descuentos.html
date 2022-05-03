@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina para calcular descuentos">
+    <meta name="robots" content="follow">
+    <title>Descuentos</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Porcentajes y Descuentos</h1>
+            <p>(Este es el segundo taller del curso practico de JavaScript)</p>
+        </div>
+    </header>
+    <main>
+        <section class="first-section">
+            <h2>Calcula el precio a pagar de tus productos con descuento.</h2>
+            <form action="">
+                <label for="inputPrecio">Escribe el precio de tu producto</label>
+                <div><input type="number" id="inputPrecio" placeholder="Precio"><span>$</span></div>
+
+                <label for="inputDescuento">Escribe el descuento de tu producto </label>
+                <div><input type="number" id="inputDescuento" placeholder="Descuento"><span>%</span></div>
+
+                <button type="button" onclick="calcularDescuento()">Calcular</button>
+
+                <label for="inputCupones">¿Tienes algun cupon de descuento?</label>
+                <input type="text" class="input-cupones" id="inputCupones">
+
+                <button type="button" onclick="calcularDescuentoMasCupon()" class="button-cupon">Calcular Descuento + Cupon</button>
+                
+                <p id="error-text"></p>
+                <h3 id="resultado_descuentoh3"></h3>
+            </form>
+        </section>
+
+        <section class="cupones-section">
+            <ul>
+                <div><h3>Cupones de descuento</h3></div>
+                <li>Dhose <b>15%</b></li>
+                <li>Joacoxox <b>30%</b></li>
+                <li>Cerati <b>20%</b></li>
+                <li>TomMisch <b>50%</b></li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./descuentos.js"></script>
+</body>
+</html>

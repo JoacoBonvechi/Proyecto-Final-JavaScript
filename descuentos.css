@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #272643;
+}
+header div{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+header h1 {
+    font-size: 5rem;
+    margin: 10px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    
+}
+header p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: white;
+}
+main{
+    padding-top: 40px;
+    height: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+main .first-section{
+    min-width: 320px;
+    max-width: 600px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0px rgb(153 153 153);
+    padding: 10px;
+}
+.first-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px;
+}
+.first-section form {
+    display: flex;
+    flex-direction: column;
+}
+.first-section form label {
+    font-size: 1.8rem;
+    margin: 10px ;
+}
+.first-section form div {
+    width: auto;
+    display: flex;
+}
+.first-section form div input{
+    margin: 10px;
+    font-size: 500;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px 0px rgb(153 153 153);
+    width: 100%;
+    
+}
+.first-section form div{
+    position: relative;
+}
+.first-section form span{
+    position: absolute;
+    top: calc(50% - 11px);
+    left: 93%;
+    font-size:1.8rem;
+    font-weight: 600;
+    padding-right: 10px;
+}
+.first-section form .input-cupones{
+    margin: 10px;
+    font-size: 500;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px 0px rgb(153 153 153);
+    
+}
+.first-section form button {
+    padding: 10px;
+    margin: 10px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    background-color: #272643;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px 0px rgb(153 153 153);
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.50s;
+}
+
+.first-section form h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 10px;
+}
+.first-section form p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 10px;
+    color: red;
+}
+
+.cupones-section{
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cupones-section div{
+    border-bottom: solid 2px black;
+    
+}
+.cupones-section h3{
+    font-size: 1.8rem;
+    margin: 5px;
+}
+.cupones-section ul li{
+    list-style: none;
+    font-size: 1.6rem;
+    margin: 10px;
+    font-weight: 500;
+}
+
+
+
+
+.first-section form button:hover{
+    background-color: #1d1c31;
+    transform: translate(0px, -5px);
+    transition: transform 0.50s;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }

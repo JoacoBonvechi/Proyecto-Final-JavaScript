@@ -1,0 +1,408 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    width: 100%;
+    background-color: rgb(47, 59, 82);
+    padding-bottom: 20px;
+}
+header div{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+header h1 {
+    font-size: 5rem;
+    margin: 10px;
+    
+    color: white;
+    
+}
+header p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: white;
+}
+main{
+    background-color: rgb(37, 46, 66);
+    padding-top: 40px;
+    padding-bottom:40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-promedios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width:320px ;
+    max-width: 770px;
+    padding: 20px;
+    background-color: rgb(47, 59, 82);
+    margin: 20px;
+    
+}
+.section-promedios h2 {
+    font-size: 2.4rem;
+    color: white;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(37, 46, 66);
+}
+.section-promedios h2 span{
+    border-bottom: 2px solid white;
+    display: inline-block;
+    width: fit-content;
+}
+.section-promedios p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    
+}
+.section-promedios label{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+}
+.section-promedios div {
+    margin: 15px 0;
+}
+.section-promedios div input{
+    margin: 10px;
+    font-size: 500;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px 0px rgb(153 153 153);
+    width: 45%;
+    min-width: 260px;
+}
+ button {
+    padding: 10px;
+    margin: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    background-color: #272643;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px 0px rgb(26, 31, 39);
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.50s;
+}
+.section-promedios .button-promedios{
+    margin-right: 30px;
+}
+.section-promedios .promedios-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+#lista-numeros {
+    font-size: 1.8rem;
+    color: white;
+    margin: 5px;
+}
+#texto-promedios{
+    font-size: 1.8rem;
+    color: white;
+    margin: 5px;
+    padding-top: 20px;
+    display: inline-block;
+    justify-self: flex-start;
+}
+
+/* MEDIANA */
+
+.section-mediana{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width:320px ;
+    max-width: 770px;
+    padding: 20px;
+    background-color: rgb(47, 59, 82);
+    margin: 20px;
+    
+}
+.section-mediana h2 {
+    font-size: 2.4rem;
+    color: white;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(37, 46, 66);
+}
+.section-mediana h2 span{
+    border-bottom: 2px solid white;
+    display: inline-block;
+    width: fit-content;
+}
+.section-mediana label{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+}
+.section-mediana div {
+    margin: 15px 0;
+}
+.section-mediana div input{
+    margin: 10px;
+    font-size: 500;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px 0px rgb(153 153 153);
+    width: 45%;
+    min-width: 260px;
+}
+.section-mediana .button-mediana{
+    margin-right: 30px;
+}
+.section-mediana .resultados-mediana-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+#lista-mediana {
+    font-size: 1.8rem;
+    color: white;
+    margin: 5px;
+}
+#texto-mediana{
+    font-size: 1.8rem;
+    color: white;
+    margin: 5px;
+    padding-top: 20px;
+    display: inline-block;
+    justify-self: flex-start;
+}
+
+
+/* MODA */
+
+.section-moda{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width:320px ;
+    max-width: 770px;
+    padding: 20px;
+    background-color: rgb(47, 59, 82);
+    margin: 20px;
+    
+}
+.section-moda h2 {
+    font-size: 2.4rem;
+    color: white;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(37, 46, 66);
+}
+.section-moda h2 span{
+    border-bottom: 2px solid white;
+    display: inline-block;
+    width: fit-content;
+}
+.section-moda label{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+}
+.section-moda div {
+    margin: 15px 0;
+}
+.section-moda div input{
+    margin: 10px;
+    font-size: 500;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px 0px rgb(153 153 153);
+    width: 45%;
+    min-width: 260px;
+}
+.section-moda .button-moda{
+    margin-right: 30px;
+}
+.section-moda .resultados-moda-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+#lista-moda {
+    font-size: 1.8rem;
+    color: white;
+    margin: 5px;
+}
+#texto-moda{
+    font-size: 1.8rem;
+    color: white;
+    margin: 5px;
+    padding-top: 20px;
+    display: inline-block;
+    justify-self: flex-start;
+}
+
+
+/* MEDIA ARMONICA */
+
+.section-media-armonica{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width:320px ;
+    max-width: 770px;
+    padding: 20px;
+    background-color: rgb(47, 59, 82);
+    margin: 20px;
+    
+}
+.section-media-armonica h2 {
+    font-size: 2.4rem;
+    color: white;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(37, 46, 66);
+}
+.section-media-armonica h2 span{
+    border-bottom: 2px solid white;
+    display: inline-block;
+    width: fit-content;
+}
+.section-media-armonica label{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+}
+.section-media-armonica div {
+    margin: 15px 0;
+}
+.section-media-armonica div input{
+    margin: 10px;
+    font-size: 500;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px 0px rgb(153 153 153);
+    width: 45%;
+    min-width: 260px;
+}
+.section-media-armonica .button-media-armonica{
+    margin-right: 30px;
+}
+.section-media-armonica .resultados-media-armonica-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+#lista-media-armonica {
+    font-size: 1.8rem;
+    color: white;
+    margin: 5px;
+}
+#texto-media-armonica{
+    font-size: 1.8rem;
+    color: white;
+    margin: 5px;
+    padding-top: 20px;
+    display: inline-block;
+    justify-self: flex-start;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER */ 
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(47, 59, 82);
+    padding: 10px;
+}
+footer .logo-footer-container{
+    width: 50%;
+    min-width: 320px;
+}
+footer .redes-footer-container{
+    width: 50%;
+    min-width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .redes-footer-container ul{
+    list-style: none;
+}
+footer .redes-footer-container ul li{
+    margin: 10px;
+}
+footer .redes-footer-container ul li a{
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+}
+.redes-logo{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.logo-footer-container {
+    text-align: center;
+}
+.logo-footer-container img {
+    padding-left: 50px;
+}
+/* ANIMACIONES */
+
+ form button:hover{
+    transform: translate(0px, -5px);
+    transition: transform 0.50s;
+}
+form button:active{
+    background-color: #1d1c31;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
