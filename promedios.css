@@ -128,13 +128,13 @@ main{
     min-width: 260px;
 }
  button {
+    background-color: #272643;
     padding: 10px;
     margin: 10px 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500px;
     border-radius: 5px;
     font-size: 1.8rem;
-    background-color: #272643;
     color: white;
     border: none;
     box-shadow: 2px 2px 5px 0px rgb(26, 31, 39);

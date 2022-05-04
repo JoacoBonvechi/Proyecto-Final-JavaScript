@@ -13,7 +13,7 @@ header {
     background-color: rgb(47, 59, 82);
     padding-bottom: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 header .header-img{
     padding-top: 30px;
@@ -111,35 +111,36 @@ main{
     flex-wrap: wrap;
     padding-left: 40px;
 }
-.first-section section .input-container {
-    width: 110px;
-    height:30px;
-    margin: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: white;
-    display: flex;
-    align-items: center;
-}
+
 .first-section section input {
-    width: 110px;
+    margin: 10px;
+    font-size: 500;
     border: none;
-    outline: none;
-    padding: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px 0px rgb(153 153 153);
+    width: 30%;
+    min-width: 260px;
 }
 
 .first-section section button{
-    width: 110px;
-    margin:10px;
-    border: none;
-    outline: none;
-    padding: 5px;
     background-color: #9C8B6D;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
     color: white;
     cursor: pointer;
+    padding: 10px;
+    margin: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px 0px rgb(26, 31, 39);
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.50s;
 }
 
 
@@ -188,34 +189,34 @@ main{
     flex-wrap: wrap;
     padding-left: 40px;
 }
- .second-section section .input-container {
-    width: 110px;
-    height:30px;
-    margin: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: white;
-    display: flex;
-    align-items: center;
-}
 .second-section section input {
-    width: 110px;
+    margin: 10px;
+    font-size: 500;
     border: none;
-    outline: none;
-    padding: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px 0px rgb(153 153 153);
+    width: 15%;
+    min-width: 260px;
 }
 .second-section section button{
-    width: 110px;
-    margin: 10px;
-    border: none;
-    outline: none;
-    padding: 5px;
     background-color: #688F43;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
     color: white;
     cursor: pointer;
+    padding: 10px;
+    margin: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px 0px rgb(26, 31, 39);
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.50s;
 }
 
 /* SECCION CIRCULO */
@@ -263,34 +264,35 @@ main{
     flex-wrap: wrap;
     padding-left: 40px;
 }
- .third-section section .input-container {
-    width: 110px;
-    height:30px;
-    margin: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: white;
-    display: flex;
-    align-items: center;
-}
 .third-section section input {
-    width: 110px;
+    margin: 10px;
+    font-size: 500;
     border: none;
-    outline: none;
-    padding: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px 0px rgb(153 153 153);
+    width: 15%;
+    min-width: 260px;
 }
 .third-section section button{
-    width: 110px;
-    margin: 10px;
-    border: none;
-    outline: none;
-    padding: 5px;
     background-color: #B57148;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
     color: white;
     cursor: pointer;
+    padding: 10px;
+    margin: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px 0px rgb(26, 31, 39);
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.50s;
+    
 }
 
 /* FOOTER */ 
