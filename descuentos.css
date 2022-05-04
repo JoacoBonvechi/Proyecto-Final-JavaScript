@@ -148,6 +148,47 @@ main .first-section{
     font-weight: 500;
 }
 
+/* FOOTER */ 
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(47, 59, 82);
+    padding: 10px;
+}
+footer .logo-footer-container{
+    width: 50%;
+    min-width: 320px;
+}
+footer .redes-footer-container{
+    width: 50%;
+    min-width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .redes-footer-container ul{
+    list-style: none;
+}
+footer .redes-footer-container ul li{
+    margin: 10px;
+}
+footer .redes-footer-container ul li a{
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+}
+.redes-logo{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.logo-footer-container {
+    text-align: center;
+}
+.logo-footer-container img {
+    padding-left: 50px;
+}
 
 
 
