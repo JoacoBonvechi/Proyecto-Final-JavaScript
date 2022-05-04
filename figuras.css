@@ -336,3 +336,10 @@ footer .redes-footer-container ul li a{
 .logo-footer-container img {
     padding-left: 50px;
 }
+ button{
+    transition: all 0.50s;
+ }
+form button:hover{
+    transform: translate(0px, -5px);
+    transition: all 0.50s;
+}
