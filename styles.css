@@ -141,10 +141,10 @@ main .section-proyects .div-descuentos{
         height: 35vh;
     }
     main .section-image {
-        height: 65%;
+        height: 240px;
     }
     main .section-image img{
-        width: 85%;
+        width: 90%;
     }
     .div-descuentos, .div-figuras, .div-promedios{
         min-width: 100%;
