@@ -48,7 +48,7 @@ main .section-image {
     
 }
 main .section-image img{
-    height: 85%;
+    width: 100%;
 }
 main .section-proyects{
     width: 100%;
@@ -125,7 +125,16 @@ main .section-proyects .div-descuentos{
     header img{
         left: calc(50% - 82px);
     }
-
+}
+@media(min-width:1024px){
+    main .section-image{
+        width: 420px;
+}
+}
+@media(min-width:1440px){
+    main .section-image{
+        width: 500px;
+}
 }
 @media(max-width:700px){
     header {
@@ -135,7 +144,7 @@ main .section-proyects .div-descuentos{
         height: 50%;
     }
     main .section-image img{
-        height: 85%;
+        width: 85%;
     }
     .div-descuentos, .div-figuras, .div-promedios{
         min-width: 100%;
