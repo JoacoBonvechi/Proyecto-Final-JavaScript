@@ -30,6 +30,7 @@ header h1{
     border-bottom: 3px white solid;
     padding-bottom: 5px;
     text-shadow: 0 3px 0 #1b1b1b;
+    margin: 0 20px;
 }
 main{
     width: 100%;
@@ -129,13 +130,6 @@ main .section-proyects .div-descuentos{
     header {
         height: 35vh;
     }
-    header h1 {
-        font-size: 3.3rem;
-        border-bottom:none;
-        text-decoration: underline 3px white;
-        text-shadow: 0 3px 0 #1b1b1b;
-
-    }
     main .section-image {
         height: 60%;
     }
@@ -147,5 +141,12 @@ main .section-proyects .div-descuentos{
     }
     .a-promedios:hover, .a-figuras:hover, .a-descuentos:hover {
         transform: none;
+    }
+}
+@media(max-width:720px){
+    header h1 {
+        font-size: 3.3rem;
+        border-bottom:none;
+        text-decoration: underline 3px white;
     }
 }
