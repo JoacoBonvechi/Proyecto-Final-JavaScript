@@ -23,6 +23,7 @@ header .header-img{
     display: flex;
     justify-content: center;
     align-items: center;
+    grid-column: 1/2;
 }
 header .header-img img{
     width: 50%;
@@ -387,7 +388,7 @@ main{
 footer {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     background-color: rgb(47, 59, 82);
     padding: 10px;
 }
@@ -432,10 +433,45 @@ footer .redes-footer-container ul li a{
 form button:active{
     background-color: #1d1c31;
 }
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+
+/* MEDIA QUERIES HEADER Y FOOTER */
+
+@media(max-width:768px){
+    header {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .header-img{
+        
+    }
+    header .header-title{
+        padding-top: 0;
+    }
+    header .header-title h1{
+        font-size: 4rem;
+    }
+    header .header-title p{
+        font-size: 1.2rem;
+    }
+    header .header-home{
+        text-align: center;
+        margin-right: 0;
+    }
+    header .header-img img{
+        width: 0;
+        height: 0;
+    }
+    footer .logo-footer-container img{
+        padding: 0;
+    }
+    footer .redes-footer-container{
+        padding: 10px 0;
+    }
+    footer .logo-footer-container, footer .redes-footer-container{
+        width: auto;
+    }
 }
 
-input[type=number] { -moz-appearance:textfield; }
+
+
