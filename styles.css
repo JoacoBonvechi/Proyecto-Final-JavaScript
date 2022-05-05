@@ -36,7 +36,8 @@ main{
     background-color: #2F3B52;
 }
 main .section-image {
-    min-width: 320px;
+    width: 320px;
+    max-width: 500px;
     height: 75%;
     display: flex;
     justify-content: center;
@@ -44,8 +45,7 @@ main .section-image {
     
 }
 main .section-image img{
-    
-    
+    width: 100%;;
 }
 main .section-proyects{
     width: 100%;
