@@ -54,10 +54,11 @@ header .header-home{
 }
 header .header-home a{
     text-decoration: none;
-    border-bottom: 2px white solid;
     padding-bottom: 3px;
     color: white;
     font-size: 2rem;
+    position: relative;
+    transition: all .3s;
 }
 header .header-home a span {
     vertical-align: middle;
@@ -343,6 +344,21 @@ form button:hover{
     transform: translate(0px, -5px);
     transition: all 0.50s;
 }
+header .header-home a::before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transition: all .3s;
+}
+header .header-home a:hover:before{
+    left: 0;
+    width: 100%;
+}
 
 /* MEDIA QUERIES HEADER Y FOOTER */
 
@@ -351,9 +367,6 @@ form button:hover{
         display: flex;
         flex-direction: column;
         padding-bottom: 30px;
-    }
-    .header-img{
-        
     }
     header .header-title{
         padding-top: 0;
@@ -367,6 +380,13 @@ form button:hover{
     header .header-home{
         text-align: center;
         margin-right: 0;
+    }
+    header .header-home a{
+        border-bottom: 2px solid white;
+    }
+    header .header-home a:hover:before{
+        left: 0;
+        width: 0;
     }
     header .header-img img{
         width: 0;
