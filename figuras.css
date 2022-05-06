@@ -350,11 +350,15 @@ footer .redes-footer-container ul li a{
  button{
     transition: all 0.50s;
  }
- .texto-js{
+.texto-js{
      font-size: 2rem;
      color: white;
      margin: 10px;
- }
+     font-weight: 500;
+}
+#perimetro-text-square, #area-text-square{
+    color: black;
+}
 form button:hover{
     transform: translate(0px, -5px);
     transition: all 0.50s;
