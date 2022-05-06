@@ -31,17 +31,20 @@
                     </label>
                     <div><img src="./assets/Rectangle 1.png" alt=""></div>
                 </article>
-                <section>
+                <section class="section-inputs">
                     
                         <input type="number" id="InputCuadrado" placeholder="Valor de lado">
-                    
-                        <button type="button" onclick="calcularPerimetroCuadrado()">
-                            Calcular el perimetro
-                        </button>
-                        <button type="button" onclick="calcularAreaCuadrado()">
-                            Calcular el area
-                        </button>
                 </section>
+                <section class="section-buttons">
+                    <button type="button" onclick="calcularPerimetroCuadrado()">
+                        Calcular el perimetro
+                    </button>
+                    <button type="button" onclick="calcularAreaCuadrado()">
+                        Calcular el area
+                    </button>
+                </section>
+                <p class="texto-js" id="perimetro-text-square">Perimetro: </p>
+                <p class="texto-js" id="area-text-square">Area:</p>
             </form>
         </section>
 
@@ -57,16 +60,18 @@
                     </div>
                 </article>
     
-                <section>
+                <section class="section-inputs">
                     <input type="number" placeholder="Base" id="InputTrianguloBase">
                     <input type="number" placeholder="Lado A" id="InputTrianguloLadoA">
                     <input type="number" placeholder="Lado B" id="InputTrianguloLadoB">
                     <input type="number" placeholder="Altura" id="InputTrianguloAltura">
-    
+                </section>
+                <section class="section-buttons">
                     <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perimetro</button>
                     <button type="button" onclick="calcularAreaTriangulo()">Calcular el area</button>
-    
                 </section>
+                <p class="texto-js" id="perimetro-text-triangulo">Perimetro: </p>
+                <p class="texto-js" id="area-text-triangulo">Area:</p>
             </form>
 
         </section>
@@ -83,14 +88,17 @@
                     </div>
                 </article>
     
-                <section>
+                <section class="section-inputs">
                     <input type="number" placeholder="Radio" id="InputCirculo">
-    
+                </section>
+                <section class="section-buttons">
                     <button type="button" onclick="calcularDiametroCirculo()">Calcular el diametro</button>
                     <button type="button" onclick="calcularPerimetroCirculo()">Calcular el perimetro</button>
                     <button type="button" onclick="calcularAreaCirculo()">Calcular el area</button>
-    
                 </section>
+                <p class="texto-js" id="diametro-text-circulo">Diametro:</p>
+                <p class="texto-js" id="perimetro-text-circulo">Perimetro: </p>
+                <p class="texto-js" id="area-text-circulo">Area:</p>
             </form>
         </section>
     </main>

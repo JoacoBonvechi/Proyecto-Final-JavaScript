@@ -3,7 +3,7 @@
 console.group("Cuadrados")
 
 function perimetroCuadrado(lado){
-    return lado *4;
+    return lado * 4;
 }
 
 function areaCuadrado(lado){
@@ -63,7 +63,9 @@ function calcularPerimetroCuadrado(){
     const value = input.value;
 
     const perimetro = perimetroCuadrado(value);
-    alert(perimetro);
+
+    const text_perimetro_cuadrado = document.getElementById("perimetro-text-square");
+    text_perimetro_cuadrado.innerText = "Perimetro: "+perimetro;
 
 }
 
@@ -73,7 +75,9 @@ function calcularAreaCuadrado(){
     const value = input.value;
 
     const area = areaCuadrado(value);
-    alert(area);
+
+    const text_area_cuadrado = document.getElementById("area-text-square");
+    text_area_cuadrado.innerText = "Area: "+area;
 
 }
 
@@ -90,7 +94,8 @@ function calcularPerimetroTriangulo(){
 
     const perimetro = perimetroTriangulo(value1, value2, value3);
 
-    alert(perimetro)
+    const text_perimetro_triangulo = document.getElementById("perimetro-text-triangulo");
+    text_perimetro_triangulo.innerText = "Perimetro: "+perimetro;
 }
 
 function calcularAreaTriangulo(){
@@ -102,7 +107,8 @@ function calcularAreaTriangulo(){
 
     const area = areaTriangulo(value1, value2);
 
-    alert(area)
+    const text_area_triangulo = document.getElementById("area-text-triangulo");
+    text_area_triangulo.innerText = "Area: "+area;
 }
 
 // CIRCULOS
@@ -113,7 +119,8 @@ function calcularDiametroCirculo(){
 
     const diametro = diametroCirculo(value);
 
-    alert(diametro);
+    const text_diametro_circulo = document.getElementById("diametro-text-circulo");
+    text_diametro_circulo.innerText = "Diametro: "+diametro;
 }
 
 function calcularPerimetroCirculo(){
@@ -122,7 +129,8 @@ function calcularPerimetroCirculo(){
 
     const perimetro = perimetroCirculo(value);
 
-    alert(perimetro);
+    const text_perimetro_circulo = document.getElementById("perimetro-text-circulo");
+    text_perimetro_circulo.innerText = "Perimetro: "+perimetro;
 }
 
 function calcularAreaCirculo(){
@@ -130,6 +138,8 @@ function calcularAreaCirculo(){
     const value = Number(radio.value);
 
     const area = areaCirculo(value);
-    alert(area);
+    
+    const text_area_circulo = document.getElementById("area-text-circulo");
+    text_area_circulo.innerText = "Area: "+area;
 }
 
